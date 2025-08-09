@@ -1,0 +1,81 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.nav_links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    color: hsl(0, 0%, 41%);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.login {
+    border: none;
+    background-color: transparent;
+    color: hsl(0, 0%, 41%);
+}
+
+.register {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 41%);
+    border: 1px solid hsl(0, 0%, 41%);
+    border-radius: 15px;
+    padding: 0.8rem 1rem;
+}
+
+.section {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.illustration {
+    width: 50%;
+}
+
+.intro {
+    width: 50%;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 3.2rem;
+}
+
+p {
+    color: hsl(0, 0%, 41%);
+    line-height: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.img {
+    margin-top: 9rem;
+}
+
+.learn_more {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 1rem 3rem;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+}
+
+.learn_more:hover {
+    background-color: hsl(0, 0%, 98%);
+    transition: ease-in-out 1s;
+    color: hsl(0, 0%, 8%);
+}
